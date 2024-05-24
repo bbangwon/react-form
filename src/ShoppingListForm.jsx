@@ -17,7 +17,6 @@ function ShoppingListForm({addItem}) {
     
     return (
         <form onSubmit={handleSubmit}>
-            <h1>Product is: {formData.product} and quantity is {formData.quantity}</h1>
             <label htmlFor="product">Product Name</label>
             <input 
                 type="text" 

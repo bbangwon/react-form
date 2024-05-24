@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { v4 as uuid } from "uuid";
 import ShoppingListForm from "./ShoppingListForm";
 function ShoppingList(){
     const [items, setItems] = useState([
-        {id: 1, product: "Milk", quantity: 2},
-        {id: 2, product: "Eggs", quantity: 12},
+        {id: uuid(), product: "Milk", quantity: 2},
+        {id: uuid(), product: "Eggs", quantity: 12},
     ]);
 
     const addItem = (item) => {
@@ -17,7 +18,7 @@ function ShoppingList(){
             <h1>Shopping List</h1>
             <ul>
                 {items.map(item => {
-                    return <li key={item.id}>{item.product} - {item.quantity}</li>
+                    return <li key={uuid()}>{item.product} - {item.quantity}</li>
                 })}
             </ul>
             <ShoppingListForm addItem={addItem} />
