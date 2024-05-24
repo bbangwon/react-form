@@ -5,6 +5,7 @@
 
 import './App.css'
 import ShoppingList from './ShoppingList'
+import FormDemo from './FormDemo'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <SignupForm />
         <BatterSignupForm /> */}
         <ShoppingList />
+        <FormDemo />
     </>
   )
 }
