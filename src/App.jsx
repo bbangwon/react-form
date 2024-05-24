@@ -1,14 +1,16 @@
-import UsernameForm from './UsernameForm'
-import SignupForm from './SignupForm'
-import BatterSignupForm from './BatterSignupForm'
+// import UsernameForm from './UsernameForm'
+// import SignupForm from './SignupForm'
+// import BatterSignupForm from './BatterSignupForm'
+import ShoppingListForm from './ShoppingListForm'
 import './App.css'
 
 function App() {
   return (
     <>
-        <UsernameForm />
+        {/* <UsernameForm />
         <SignupForm />
-        <BatterSignupForm />
+        <BatterSignupForm /> */}
+        <ShoppingListForm />
     </>
   )
 }
