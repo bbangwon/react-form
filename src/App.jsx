@@ -2,8 +2,9 @@
 // import SignupForm from './SignupForm'
 // import BatterSignupForm from './BatterSignupForm'
 //import ShoppingListForm from './ShoppingListForm'
-import ShoppingList from './ShoppingList'
+
 import './App.css'
+import ShoppingList from './ShoppingList'
 
 function App() {
   return (
