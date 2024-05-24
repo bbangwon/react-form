@@ -1,5 +1,6 @@
 import UsernameForm from './UsernameForm'
-import SignupForm from './SIgnupForm'
+import SignupForm from './SignupForm'
+import BatterSignupForm from './BatterSignupForm'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
         <UsernameForm />
         <SignupForm />
+        <BatterSignupForm />
     </>
   )
 }
