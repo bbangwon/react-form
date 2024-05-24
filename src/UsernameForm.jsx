@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function UsernameForm() {
-    const [username, setUsername] = useState("timmy");
+    const [username, setUsername] = useState("");
     const updateUsername = (e) => {
         setUsername(e.target.value);
     }
